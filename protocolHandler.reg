@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\shariktlt]
+@="URL:shariktlt protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\shariktlt\Shell]
+[HKEY_CLASSES_ROOT\shariktlt\Shell\Open]
+[HKEY_CLASSES_ROOT\shariktlt\Shell\Open\Command]
+@="\"E:\\dev\\src\\protocol_handler\\shariktltHandler.bat\" \"%1\""
